@@ -44,4 +44,4 @@ Repository *hello-world* Anda dapat menjadi tempat di mana Anda menyimpan ide, s
 
 1. Di sudut kanan atas halaman mana pun, pilih ikon **+**, lalu klik **New repository**.
 
-![](~src/03-Hello%20World.png)
+![|500](~src/03-Hello%20World.png)
