@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github Tutorial/Github Docs/Start your journey/02-Creating an account on GitHub.md",
-                "mode": "preview",
+                "file": "Github Tutorial/Github Docs/Start your journey/03-Hello World.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Creating an account on GitHub"
+              "title": "03-Hello World"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cd12681a513ce683",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github Tutorial/Github Docs/Start your journey/02-Creating an account on GitHub.md",
+                "file": "Github Tutorial/Github Docs/Start your journey/03-Hello World.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 02-Creating an account on GitHub"
+              "title": "Backlinks for 03-Hello World"
             }
           },
           {
@@ -114,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Github Tutorial/Github Docs/Start your journey/02-Creating an account on GitHub.md",
+                "file": "Github Tutorial/Github Docs/Start your journey/03-Hello World.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 02-Creating an account on GitHub"
+              "title": "Outgoing links from 03-Hello World"
             }
           },
           {
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github Tutorial/Github Docs/Start your journey/02-Creating an account on GitHub.md",
+                "file": "Github Tutorial/Github Docs/Start your journey/03-Hello World.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02-Creating an account on GitHub"
+              "title": "Outline of 03-Hello World"
             }
           }
         ]
@@ -173,12 +172,20 @@
   },
   "active": "a2b3b1b4f6888e42",
   "lastOpenFiles": [
-    "Github Tutorial/Github Docs/Start your journey/01-About GitHub and Git.md",
+    "Github Tutorial/Github Docs/Start your journey/~src/03-Hello World.png",
+    "Github Tutorial/Github Docs/Start your journey/~src",
+    "Github Tutorial/Github Docs/Start your journey/~source/03-Hello World.png",
+    "Github Tutorial/Github Docs/Start your journey/~source",
+    "Github Tutorial/Github Docs/Start your journey/source/03-Hello World.png",
+    "Github Tutorial/Github Docs/Start your journey/source",
+    "Untitled.md",
+    "03-Hello World.png",
+    "Github Tutorial/Github Docs/Start your journey/03-Hello World.md",
     "Github Tutorial/Github Docs/Start your journey/02-Creating an account on GitHub.md",
+    "Github Tutorial/Github Docs/Start your journey/01-About GitHub and Git.md",
     "Templater/Docs.md",
     "Github Tutorial/Github Docs/Start your journey",
     "Github Tutorial/Github Docs",
-    "Untitled.md",
     "Templater",
     "Github Tutorial",
     "Pasted.md",
