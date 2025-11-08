@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github Tutorial/Github Docs/Start your journey/03-Hello World.md",
-                "mode": "source",
+                "file": "Github Docs/10-Using Git/01-About Git.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Hello World"
+              "title": "01-About Git"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github Tutorial/Github Docs/Start your journey/03-Hello World.md",
+                "file": "Github Docs/10-Using Git/01-About Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 03-Hello World"
+              "title": "Backlinks for 01-About Git"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Github Tutorial/Github Docs/Start your journey/03-Hello World.md",
+                "file": "Github Docs/10-Using Git/01-About Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 03-Hello World"
+              "title": "Outgoing links from 01-About Git"
             }
           },
           {
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github Tutorial/Github Docs/Start your journey/03-Hello World.md",
+                "file": "Github Docs/10-Using Git/01-About Git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03-Hello World"
+              "title": "Outline of 01-About Git"
             }
           }
         ]
@@ -173,22 +173,32 @@
   },
   "active": "a2b3b1b4f6888e42",
   "lastOpenFiles": [
-    "Github Tutorial/Github Docs/Start your journey/~src/03-Hello World.png",
-    "Github Tutorial/Github Docs/Start your journey/~src",
+    "Github Docs/01-Start your journey/Untitled.md",
+    "Github Docs/10-Using Git/01-About Git.md",
+    "Github Docs/10-Using Git",
+    "Helper/Standar Terjemahan.md",
+    "Github Docs/01-Start your journey/03-Hello World.md",
+    "Helper",
+    "Helper",
+    "Github Docs/01-Start your journey/~src/03-Hello World-4.png",
+    "Github Docs/01-Start your journey/~src/03-Hello World-3.png",
+    "Github Docs/01-Start your journey/~src/03-Hello World-2.png",
+    "Github Docs/01-Start your journey/~src/03-Hello World-1.png",
+    "Github Docs/01-Start your journey/~src/03-Hello World.png",
+    "Github Docs/01-Start your journey/~src",
     "Github Tutorial/Github Docs/Start your journey/~source/03-Hello World.png",
     "Github Tutorial/Github Docs/Start your journey/~source",
     "Github Tutorial/Github Docs/Start your journey/source/03-Hello World.png",
     "Github Tutorial/Github Docs/Start your journey/source",
     "Untitled.md",
     "03-Hello World.png",
-    "Github Tutorial/Github Docs/Start your journey/03-Hello World.md",
-    "Github Tutorial/Github Docs/Start your journey/02-Creating an account on GitHub.md",
-    "Github Tutorial/Github Docs/Start your journey/01-About GitHub and Git.md",
+    "Github Docs/01-Start your journey/02-Creating an account on GitHub.md",
+    "Github Docs/01-Start your journey/01-About GitHub and Git.md",
     "Templater/Docs.md",
-    "Github Tutorial/Github Docs/Start your journey",
-    "Github Tutorial/Github Docs",
+    "Github Docs/01-Start your journey",
+    "Github Docs/Github Docs",
     "Templater",
-    "Github Tutorial",
+    "Github Docs",
     "Pasted.md",
     "Pasted image 20251108103637.png",
     "Pasted image 20251108104101.png"
