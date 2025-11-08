@@ -26,7 +26,7 @@ Menyimpan kode Anda dalam sebuah "repository" (repositori) di GitHub memungkinka
 
 Kerja kolaboratif, yang merupakan salah satu fitur mendasar GitHub, dimungkinkan oleh perangkat lunak sumber terbuka (open-source), Git, yang menjadi dasar dibangunnya GitHub.
 
-
+---
 
 ## Tentang Git
 
@@ -41,4 +41,34 @@ Biasanya, untuk melakukan ini dalam alur kerja berbasis Git, Anda akan:
 
 Untuk mencoba menggunakan Git sendiri, lihat [Getting started with Git](https://docs.github.com/en/get-started/learning-to-code/getting-started-with-git).
 
+---
+
+## Bagaimana Git dan GitHub Bekerja Sama
+
+Ketika Anda mengunggah berkas ke GitHub, Anda akan menyimpannya di dalam "Git repository" (repositori Git). Ini berarti bahwa ketika Anda membuat perubahan (atau "commits") pada berkas Anda di GitHub, Git akan secara otomatis mulai melacak dan mengelola perubahan Anda.
+
+Ada banyak tindakan terkait Git yang dapat Anda selesaikan di GitHub secara langsung di *browser* Anda, seperti membuat repositori Git, membuat *branch* (cabang), serta mengunggah dan mengedit berkas.
+
+Namun, kebanyakan orang mengerjakan berkas mereka secara lokal (di komputer mereka sendiri), kemudian terus-menerus menyinkronkan perubahan lokal ini—beserta semua data Git terkait—dengan repositori "remote" (jarak jauh) pusat yang ada di GitHub. Ada banyak alat yang dapat Anda gunakan untuk melakukan ini, seperti GitHub Desktop.
+
+Setelah Anda mulai berkolaborasi dengan orang lain dan semua perlu bekerja pada repositori yang sama di saat yang bersamaan, Anda akan terus-menerus:
+
+* **Pull** (menarik) semua perubahan terbaru yang dibuat oleh kolaborator Anda dari repositori *remote* di GitHub.
+* **Push** (mendorong) kembali perubahan Anda sendiri ke repositori *remote* yang sama di GitHub.
+
+Git yang menentukan cara menggabungkan alur perubahan ini secara cerdas, dan GitHub membantu Anda mengelola alur tersebut melalui fitur-fitur seperti "pull requests" (permintaan tarik).
+
+
+## Dari Mana Saya Memulai?
+
+Jika Anda baru mengenal GitHub, dan belum terbiasa dengan Git, kami merekomendasikan Anda untuk mempelajari artikel-artikel dalam kategori Mulai perjalanan Anda ([Start your journey](https://docs.github.com/en/get-started/start-your-journey)).
+
+Artikel-artikel tersebut berfokus pada tugas-tugas yang dapat Anda selesaikan langsung di *browser* Anda di GitHub dan akan membantu Anda untuk:
+
+* **Membuat akun** di GitHub.
+* Mempelajari "Alur GitHub (*GitHub Flow*)", dan prinsip-prinsip utama kerja kolaboratif (*branches* (cabang), *commits* (komit), *pull requests* (permintaan tarik), *merges* (penggabungan)).
+* **Mempersonalisasi profil** Anda untuk membagikan minat dan keterampilan Anda.
+* **Menjelajahi GitHub** untuk menemukan inspirasi bagi proyek Anda sendiri dan terhubung dengan orang lain.
+* Mempelajari cara **mengunduh** kode menarik untuk penggunaan Anda sendiri.
+* Mempelajari cara **mengunggah** sesuatu yang sedang Anda kerjakan ke repositori GitHub.
 
