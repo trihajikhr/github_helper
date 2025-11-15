@@ -1,0 +1,1 @@
+- [] menambahkan opsi mkdocs, jenkyl, ghpages, github actions, dan deployment. Tambahkan bagaimana caranyha menyimpan dokumentasi dari github
