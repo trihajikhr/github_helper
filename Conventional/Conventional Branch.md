@@ -3,12 +3,14 @@ obsidianUIMode: preview
 materi: Conventional Branch
 sumber:
   - gemini.google.com
-  - https://conventional-branch.github.io/
+  - conventional-branch.github.io
 datetime: 2025-12-13T10:34:00
 tags:
-  - git
-  - github
+  - branch
+  - conventional
 ---
+Link Sumber: [Conventional Branch](https://conventional-branch.github.io/)
+
 ---
 # Conventional Branching: Standar Penamaan Branch
 

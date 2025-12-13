@@ -2,12 +2,14 @@
 obsidianUIMode: preview
 materi: Conventional Branch 1.0.0
 sumber:
-  - https://conventional-branch.github.io/
+  - conventional-branch.github.io
 datetime: 2025-12-13T10:40:00
 tags:
-  - git
-  - github
+  - branch
+  - conventional
 ---
+Link Sumber: [Conventional Branch](https://conventional-branch.github.io/)
+
 ---
 # Conventional Branch 1.0.0
 

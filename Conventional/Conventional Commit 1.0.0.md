@@ -2,12 +2,14 @@
 obsidianUIMode: preview
 materi: Conventional Commit 1.0.0
 sumber:
-  - https://www.conventionalcommits.org/en/v1.0.0/
+  - conventionalcommits.org
 datetime: 2025-12-13T10:03:00
 tags:
-  - git
-  - github
+  - commit
+  - conventional
 ---
+Link Sumber: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
 ---
 # Conventional Commits 1.0.0
 

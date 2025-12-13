@@ -3,12 +3,14 @@ obsidianUIMode: preview
 materi: Conventional Commit
 sumber:
   - gemini.google.com
-  - https://www.conventionalcommits.org/en/v1.0.0/
+  - conventionalcommits.org
 datetime: 2025-12-13T09:54:00
 tags:
-  - git
-  - github
+  - commit
+  - conventional
 ---
+Link Sumber: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
 ---
 # Conventional Commit: Standar Message Commit
 Dalam proyek kolaboratif, _commit message_ adalah kartu identitas dari setiap perubahan kode dan berfungsi sebagai narasi historis proyek. Namun, seringkali kita berhadapan dengan histori Git yang dipenuhi _commit_ berantakan, seperti "fix," "test," atau bahkan hanya "nyoba," yang membuat _debugging_ dan _code review_ menjadi mimpi buruk. Ketika sebuah masalah muncul, sulit untuk menentukan **apa** yang diubah, **mengapa** perubahan itu dibuat, dan **cakupan** mana yang terpengaruh. Strategi _Conventional Commits_ hadir sebagai solusi industri untuk mengatasi kekacauan komunikasi ini, menawarkan standar format yang ketat, konsisten, dan dapat dibaca baik oleh manusia maupun mesin.
