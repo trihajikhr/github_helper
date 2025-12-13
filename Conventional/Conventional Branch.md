@@ -3,6 +3,7 @@ obsidianUIMode: preview
 materi: Conventional Branch
 sumber:
   - gemini.google.com
+  - https://conventional-branch.github.io/
 datetime: 2025-12-13T10:34:00
 tags:
   - git
@@ -30,15 +31,14 @@ Nama _branch_ **sebaiknya** mengikuti struktur tiga bagian ini:
 
 Tipe _branch_ harus konsisten dengan _tipe_ _commit_ utama Anda. Berikut adalah tipe yang paling umum dan direkomendasikan:
 
-|**Tipe Branch**|**Tujuan**|**Contoh Nama Branch**|
-|---|---|---|
-|**`feat`**|Mengembangkan fitur baru.|`feat/checkout-flow/tambah-metode-bayar`|
-|**`fix`**|Memperbaiki _bug_ pada fungsionalitas yang ada.|`fix/api-user/perbaiki-filter-tanggal`|
-|**`refactor`**|Perubahan kode yang meningkatkan struktur tanpa mengubah fungsionalitas.|`refactor/navbar/ubah-komponen-ke-ts`|
-|**`docs`**|Perubahan pada dokumentasi (README, Wiki).|`docs/readme/perbarui-instruksi-install`|
-|**`chore`**|Tugas rutin/pemeliharaan (misalnya, _update_ dependensi).|`chore/deps/update-react-router`|
-|**`test`**|Menulis atau memodifikasi _test_ saja.|`test/auth/tambah-unit-test-login`|
-|**`hotfix`**|Perbaikan mendesak langsung ke produksi (seringkali dilewatkan dari _staging_).|`hotfix/db/perbaiki-error-timeout`|
+|**Tipe Branch**|**Tujuan Utama**|**Contoh Nama Branch**|**Catatan Penggunaan (Konsolidasi Tipe)**|
+|---|---|---|---|
+|**`main`**|**KODE UTAMA:** Sumber kebenaran, kode yang siap dirilis/sudah rilis.|N/A|**Branch permanen.** Dilarang _push_ langsung. Semua _merge_ harus melalui PR.|
+|**`feature/`** (atau `feat/`)|**FITUR BARU:** Pengembangan fungsionalitas, _refactor_ besar, atau _spike_ eksplorasi.|`feature/user-profile-editor`|**Menggantikan `refactor/` dan `test/`.** Semua kode baru dan pembersihan besar masuk sini.|
+|**`fix/`** (atau `bugfix/`)|**PERBAIKAN BUG:** Perbaikan _bug_ standar yang ditemukan saat pengembangan atau _staging_.|`fix/checkout-gagal-cache`|Untuk _bug_ rutin, bukan yang mendesak (_hotfix_). Harus berumur pendek.|
+|**`hotfix/`**|**PERBAIKAN DARURAT:** Perbaikan yang harus segera di-_deploy_ ke lingkungan produksi.|`hotfix/security-patch-api`|Diprioritaskan. Biasanya dibuat langsung dari `main` dan di-_merge_ kembali ke `main`.|
+|**`release/`**|**PERSIAPAN RILIS:** _Branch_ untuk _final testing_, _bugfix_ minor rilis, dan pembuatan _tag_ SemVer.|`release/v1.2.0`|Dibuat hanya menjelang rilis. Setelah rilis, _branch_ **sebaiknya** dihapus.|
+|**`chore/`**|**PEMELIHARAAN:** Tugas non-fungsional, termasuk _docs_, _style_, _build_, _ci_, dan _update_ dependensi.|`chore/update-dependencies`|**Menggantikan `docs/`, `style/`, `test/` (jika hanya penambahan konfigurasi CI).** Detailnya dijelaskan di _commit message_ internal.|
 
 ## 3 | Komponen Penamaan Branch Lebih Lanjut
 

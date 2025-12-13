@@ -3,6 +3,7 @@ obsidianUIMode: preview
 materi: Conventional Commit
 sumber:
   - gemini.google.com
+  - https://www.conventionalcommits.org/en/v1.0.0/
 datetime: 2025-12-13T09:54:00
 tags:
   - git
@@ -41,15 +42,20 @@ Setiap _commit message_ harus mengikuti format standar ini, terdiri dari Tipe, C
 
 Ini adalah bagian terpenting, mendefinisikan sifat perubahan. Ini harus ditulis dalam huruf kecil dan diikuti titik dua (`:`).
 
-|**Tipe**|**Deskripsi (Tujuan Commit)**|**Dampak SemVer**|
-|---|---|---|
-|**`feat`**|**FEATURE:** _Commit_ yang menambahkan fitur baru (misalnya, menambahkan _endpoint_ API baru).|**MINOR** (versi naik: 1.0.0 → 1.1.0)|
-|**`fix`**|**FIX:** _Commit_ yang memperbaiki _bug_ (masalah yang salah/rusak).|**PATCH** (versi naik: 1.0.0 → 1.0.1)|
-|`docs`|**DOCUMENTATION:** Hanya perubahan dokumentasi (README, JSDoc).|Tidak ada|
-|`style`|**STYLE:** Perubahan yang tidak mempengaruhi makna kode (spasi, format, _semicolon_).|Tidak ada|
-|`refactor`|**REFACTORING:** Perubahan kode yang tidak menambah fitur atau memperbaiki _bug_, tetapi meningkatkan struktur/kebersihan kode.|Tidak ada|
-|`test`|**TESTS:** Menambahkan atau mengubah _test_ yang hilang.|Tidak ada|
-|`chore`|**CHORES:** Perubahan pemeliharaan yang tidak terkait dengan logika aplikasi (misalnya, memperbarui konfigurasi CI).|Tidak ada|
+| **Tipe**     | **Deskripsi (Tujuan Commit)**                                                                                                                                       | **Dampak SemVer**                         | **Catatan Penggunaan**                                                                |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------- |
+| **`feat`**   | **FEATURE:** _Commit_ yang menambahkan fitur baru (misalnya, menambahkan _endpoint_ API baru).                                                                      | **MINOR** (versi naik: 1.0.0 → 1.1.0)     | Harus digunakan untuk kode baru. Wajib tambah `!` jika _Breaking Change_.             |
+| **`fix`**    | **FIX:** _Commit_ yang memperbaiki _bug_ (masalah yang salah/rusak).                                                                                                | **PATCH** (versi naik: 1.0.0 → 1.0.1)     | Digunakan untuk perbaikan kesalahan fungsional yang sudah ada.                        |
+| `docs`       | **DOCUMENTATION:** Hanya perubahan dokumentasi (README, JSDoc).                                                                                                     | Tidak ada                                 | Hanya memengaruhi dokumentasi, bukan kode aplikasi.                                   |
+| `style`      | **STYLE:** Perubahan yang tidak mempengaruhi makna kode (spasi, format, _semicolon_).                                                                               | Tidak ada                                 | Tidak mengubah logika aplikasi. Bersifat kosmetik.                                    |
+| `refactor`   | **REFACTORING:** Perubahan kode yang tidak menambah fitur atau memperbaiki _bug_, tetapi meningkatkan struktur/kebersihan kode.                                     | Tidak ada                                 | Peningkatan kebersihan dan efisiensi kode.                                            |
+| `test`       | **TESTS:** Menambahkan atau mengubah _test_ yang hilang.                                                                                                            | Tidak ada                                 | Hanya menyentuh kode pengujian.                                                       |
+| `chore`      | **CHORES:** Perubahan pemeliharaan yang tidak terkait dengan logika aplikasi (misalnya, memperbarui konfigurasi CI).                                                | Tidak ada                                 | Perubahan _housekeeping_ atau konfigurasi yang tidak terkait langsung dengan _build_. |
+| **`build`**  | **BUILD SYSTEM:** Perubahan yang memengaruhi sistem _build_ atau dependensi eksternal (misalnya, _file_ `package.json`, _update_ Webpack, Babel).                   | Tidak ada                                 | Berguna untuk melacak _upgrade_ infrastruktur _tooling_.                              |
+| **`ci`**     | **CONTINUOUS INTEGRATION:** Perubahan pada _file_ dan _script_ konfigurasi CI/CD (misalnya, _file_ `.github/workflows`, `.gitlab-ci.yml`).                          | Tidak ada                                 | Memastikan semua perubahan pada alur kerja otomatis tercatat.                         |
+| **`perf`**   | **PERFORMANCE:** Perubahan kode yang bertujuan untuk meningkatkan kinerja aplikasi, bukan perbaikan fungsional.                                                     | Tidak ada                                 | Membedakan optimasi dari _fix bug_ biasa.                                             |
+| **`revert`** | **REVERT:** Mengembalikan (_revert_) _commit_ sebelumnya. Biasanya digunakan pada _commit_ yang dibuat secara otomatis oleh Git saat Anda menggunakan `git revert`. | Bergantung pada _commit_ yang di-_revert_ | Sangat penting untuk kejelasan histori saat ada pembatalan.                           |
+
 
 ### B. Bagian Opsional: `[opsional-scope]`
 
