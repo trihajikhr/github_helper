@@ -13,6 +13,11 @@ Link Sumber: [Conventional Branch](https://conventional-branch.github.io/)
 ---
 # Conventional Branch 1.0.0
 
+> [!CAUTION] 
+> Secara resmi **tidak ada standar bernama _Conventional Branch_** seperti halnya _Conventional Commits_; yang sering disebut “conventional branch” itu sebenarnya hanyalah **kebiasaan penamaan branch** yang disamakan polanya dengan tipe commit (seperti `feature/`, `fix/`, `refactor/`) demi kerapian dan konsistensi tim, bukan sebuah spesifikasi baku. 
+> 
+> Alasannya simpel dan logis: **branch bersifat sementara dan kontekstual** (dibuat, dipakai, lalu dihapus), sementara **commit adalah artefak permanen** yang membentuk histori, changelog, dan bahkan menentukan semver serta proses rilis, sehingga commit perlu distandardisasi ketat, sedangkan branch dibiarkan fleksibel agar bisa menyesuaikan workflow tim tanpa jadi beban aturan yang kaku.
+
 ## Ringkasan
 
 Conventional Branch mengacu pada konvensi penamaan yang terstruktur dan terstandardisasi untuk _branch_ Git yang bertujuan untuk membuat nama _branch_ lebih mudah dibaca dan ditindaklanjuti (_actionable_). Kami menyarankan beberapa awalan _branch_ yang mungkin ingin Anda gunakan, tetapi Anda juga dapat menentukan konvensi penamaan Anda sendiri. Konvensi penamaan yang konsisten memudahkan untuk mengidentifikasi _branch_ berdasarkan tipenya.
@@ -67,7 +72,7 @@ Spesifikasi _branch_ ini mendukung awalan berikut dan **sebaiknya** distrukturka
 
 Singkatnya, _conventional branch_ dirancang untuk meningkatkan organisasi proyek, komunikasi, dan otomatisasi dalam alur kerja Git.
 
-## ❓ Tanya Jawab (FAQ)
+## Tanya Jawab (FAQ)
 
 ### Mengapa tipe _branch_ tidak sedetail Conventional Commits (misalnya, `build`, `ci`, `docs`, `style`, `refactor`)?
 

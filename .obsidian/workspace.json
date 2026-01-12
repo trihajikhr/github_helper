@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "c0bb9d6415247af6",
+        "id": "ed3758ba68843c23",
         "type": "tabs",
         "children": [
           {
-            "id": "a2b3b1b4f6888e42",
+            "id": "ad840b76289bc1e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github Docs/10-Using Git/01-About Git.md",
+                "file": "General/Ignoring files.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-About Git"
+              "title": "Ignoring files"
+            }
+          },
+          {
+            "id": "c43701aa8f3c8255",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Helper/Standar Terjemahan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Standar Terjemahan"
             }
           }
         ]
@@ -73,13 +87,26 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "baed7355970e5a74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Proteksi per branch untuk hanya satu orang.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Proteksi per branch untuk hanya satu orang"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cd12681a513ce683",
@@ -95,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github Docs/10-Using Git/01-About Git.md",
+                "file": "Conventional/Conventional Commit 1.0.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 01-About Git"
+              "title": "Backlinks for Conventional Commit 1.0.0"
             }
           },
           {
@@ -143,16 +170,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github Docs/10-Using Git/01-About Git.md",
+                "file": "Menggnati nama branch.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-About Git"
+              "title": "Outline of Menggnati nama branch"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -171,36 +199,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a2b3b1b4f6888e42",
+  "active": "ad840b76289bc1e9",
   "lastOpenFiles": [
-    "Github Docs/01-Start your journey/Untitled.md",
-    "Github Docs/10-Using Git/01-About Git.md",
-    "Github Docs/10-Using Git",
+    "Conventional/Conventional Branch 1.0.0.md",
     "Helper/Standar Terjemahan.md",
-    "Github Docs/01-Start your journey/03-Hello World.md",
-    "Helper",
-    "Helper",
-    "Github Docs/01-Start your journey/~src/03-Hello World-4.png",
-    "Github Docs/01-Start your journey/~src/03-Hello World-3.png",
-    "Github Docs/01-Start your journey/~src/03-Hello World-2.png",
-    "Github Docs/01-Start your journey/~src/03-Hello World-1.png",
-    "Github Docs/01-Start your journey/~src/03-Hello World.png",
-    "Github Docs/01-Start your journey/~src",
-    "Github Tutorial/Github Docs/Start your journey/~source/03-Hello World.png",
-    "Github Tutorial/Github Docs/Start your journey/~source",
-    "Github Tutorial/Github Docs/Start your journey/source/03-Hello World.png",
-    "Github Tutorial/Github Docs/Start your journey/source",
-    "Untitled.md",
-    "03-Hello World.png",
-    "Github Docs/01-Start your journey/02-Creating an account on GitHub.md",
-    "Github Docs/01-Start your journey/01-About GitHub and Git.md",
+    "General/Ignoring files.md",
     "Templater/Docs.md",
-    "Github Docs/01-Start your journey",
-    "Github Docs/Github Docs",
-    "Templater",
-    "Github Docs",
-    "Pasted.md",
-    "Pasted image 20251108103637.png",
-    "Pasted image 20251108104101.png"
+    "Solusi ignore file.md",
+    "General",
+    "Pull request vs tidak.md",
+    "Branching/The Ultimate Guide to Git Branching Strategies.md",
+    "Github Workflow Management/Github Workflow Management.md",
+    "manajemen repo.md",
+    "git revert.md",
+    "Conventional/Best practices for writing good pull request titles.md",
+    "Perbeddan dengan pull request dan tidak.md",
+    "Menghapus commit nakall yang di push.md",
+    "Menggnati nama branch.md",
+    "git reser.md",
+    "DANGER/Untitled 1.md",
+    "DANGER/Untitled.md",
+    "Conventional/Conventional Commit 1.0.0.md",
+    "Conventional/Conventional Commit.md",
+    "Conventional/Conventional Branch.md",
+    "DANGER",
+    "Branching/src/The Ultimate Guide to Git Branching Strategies-8.png",
+    "Branching/src/The Ultimate Guide to Git Branching Strategies-7.png",
+    "Branching/src/The Ultimate Guide to Git Branching Strategies-6.png",
+    "Branching/src/The Ultimate Guide to Git Branching Strategies-5.png",
+    "Branching/src/The Ultimate Guide to Git Branching Strategies-4.png",
+    "Branching/src/The Ultimate Guide to Git Branching Strategies-3.png",
+    "Branching/src/The Ultimate Guide to Git Branching Strategies-2.png",
+    "Branching/src/The Ultimate Guide to Git Branching Strategies-1.png",
+    "Branching/src/The Ultimate Guide to Git Branching Strategies.png",
+    "Branching/src",
+    "Untitled.md",
+    "Branching",
+    "Untitled 1.md",
+    "Github Workflow Management",
+    "Conventional",
+    "Proteksi per branch untuk hanya satu orang.md",
+    "mengakali commit nakal.md",
+    "Solusi user lain ketika origin nya di reset.md",
+    "README.md",
+    "MkDocs",
+    "Github Docs/10-Using Git",
+    "Helper",
+    "Helper",
+    "Github Docs/01-Start your journey/~src/03-Hello World-4.png"
   ]
 }

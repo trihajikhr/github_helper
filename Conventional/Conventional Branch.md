@@ -14,6 +14,11 @@ Link Sumber: [Conventional Branch](https://conventional-branch.github.io/)
 ---
 # Conventional Branching: Standar Penamaan Branch
 
+> [!CAUTION] 
+> Secara resmi **tidak ada standar bernama _Conventional Branch_** seperti halnya _Conventional Commits_; yang sering disebut “conventional branch” itu sebenarnya hanyalah **kebiasaan penamaan branch** yang disamakan polanya dengan tipe commit (seperti `feature/`, `fix/`, `refactor/`) demi kerapian dan konsistensi tim, bukan sebuah spesifikasi baku. 
+> 
+> Alasannya simpel dan logis: **branch bersifat sementara dan kontekstual** (dibuat, dipakai, lalu dihapus), sementara **commit adalah artefak permanen** yang membentuk histori, changelog, dan bahkan menentukan semver serta proses rilis, sehingga commit perlu distandardisasi ketat, sedangkan branch dibiarkan fleksibel agar bisa menyesuaikan workflow tim tanpa jadi beban aturan yang kaku.
+
 Setelah Anda menetapkan standar untuk _commit message_, penting untuk menerapkan standar yang serupa pada penamaan _branch_ Anda. **Conventional Branching** adalah sistem sederhana yang memanfaatkan _tipe_ yang sama dari Conventional Commits untuk mengidentifikasi tujuan _branch_ dengan cepat.
 
 Tujuan utama dari konvensi ini adalah agar setiap anggota tim dapat mengetahui **tujuan** dan **cakupan** dari sebuah _branch_ hanya dari namanya, bahkan sebelum melihat kodenya.

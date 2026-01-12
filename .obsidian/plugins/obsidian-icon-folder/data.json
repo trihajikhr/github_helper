@@ -6,8 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiFileEdit",
-      "LiNotebookPen"
+      "LiNotebookPen",
+      "LiGitBranchPlus",
+      "LiGitCommit",
+      "LiGitBranch",
+      "LiGithub"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -32,5 +35,12 @@
     "useInternalPlugins": false
   },
   "Github Docs/01-Start your journey/01-About GitHub and Git.md": "LiFileEdit",
-  "Github Docs/01-Start your journey/02-Creating an account on GitHub.md": "LiFileEdit"
+  "Github Docs/01-Start your journey/02-Creating an account on GitHub.md": "LiFileEdit",
+  "Github Workflow Management/Github Workflow Management.md": "LiGithub",
+  "Conventional/Conventional Commit.md": "LiGitCommit",
+  "Conventional/Conventional Commit 1.0.0.md": "LiGitCommit",
+  "Conventional/Conventional Branch.md": "LiGitBranchPlus",
+  "Conventional/Conventional Branch 1.0.0.md": "LiGitBranchPlus",
+  "Branching/The Ultimate Guide to Git Branching Strategies.md": "LiGitBranchPlus",
+  "General/Ignoring files.md": "LiNotebookPen"
 }

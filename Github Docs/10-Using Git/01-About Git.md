@@ -41,3 +41,44 @@ Bisnis yang menggunakan *Git* dapat mendobrak hambatan komunikasi antar tim dan 
 Sebuah *repository*, atau proyek *Git*, mencakup seluruh koleksi *files* (berkas) dan *folders* (folder) yang terkait dengan sebuah proyek, beserta riwayat revisi setiap *file*. Riwayat *file* muncul sebagai cuplikan waktu yang disebut *commits*. *Commits* dapat diorganisir menjadi beberapa lini pengembangan yang disebut *branches*. Karena *Git* adalah *DVCS*, *repositories* adalah unit yang mandiri (*self-contained*) dan siapa pun yang memiliki salinan *repository* dapat mengakses seluruh *codebase* dan riwayatnya. Menggunakan *command line* atau antarmuka yang mudah digunakan lainnya, sebuah *Git repository* juga memungkinkan untuk: interaksi dengan riwayat, *cloning* *repository*, membuat *branches*, *committing*, *merging*, membandingkan perubahan di seluruh versi kode, dan banyak lagi.
 
 Melalui *platform* seperti *GitHub*, *Git* juga memberikan lebih banyak peluang untuk transparansi dan kolaborasi proyek. *Repositories* publik membantu tim bekerja sama untuk membangun produk akhir terbaik.
+
+---
+
+## Cara Kerja *GitHub*
+
+*GitHub* menghosting *Git repositories* dan menyediakan *tools* bagi *developer* untuk mengirimkan kode yang lebih baik melalui fitur *command line*, *issues* (diskusi berulir), *pull requests*, *code review*, atau penggunaan koleksi aplikasi gratis dan berbayar di *GitHub Marketplace*. Dengan lapisan kolaborasi seperti *GitHub flow*, komunitas yang terdiri dari 100 juta *developer*, dan ekosistem dengan ratusan integrasi, *GitHub* mengubah cara *software* dibuat.
+
+*GitHub* membangun kolaborasi secara langsung ke dalam proses pengembangan. Pekerjaan diatur ke dalam *repositories* di mana *developer* dapat menguraikan persyaratan atau arahan dan menetapkan ekspektasi untuk anggota tim. Kemudian, menggunakan *GitHub flow*, *developer* cukup membuat *branch* untuk mengerjakan *updates*, *commit* perubahan untuk menyimpannya, membuka *pull request* untuk mengusulkan dan mendiskusikan perubahan, dan *merge* *pull requests* setelah semua orang sepakat. Untuk informasi lebih lanjut, lihat [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow).
+
+Untuk paket dan biaya *GitHub*, lihat [GitHub Pricing](https://github.com/pricing). Untuk informasi tentang perbandingan *GitHub Enterprise* dengan opsi lain, lihat [Comparing GitHub to other DevOps solutions](https://resources.github.com/devops/tools/compare/).
+
+---
+---
+
+## *GitHub* dan *Command Line*
+
+### Perintah Dasar *Git*
+
+Untuk menggunakan *Git*, *developer* menggunakan perintah spesifik untuk menyalin, membuat, mengubah, dan menggabungkan kode. Perintah-perintah ini dapat dieksekusi langsung dari *command line* atau dengan menggunakan aplikasi seperti *GitHub Desktop*. Berikut adalah beberapa perintah umum untuk menggunakan *Git*:
+
+* `git init` menginisialisasi *Git repository* yang benar-benar baru dan mulai melacak *directory* yang sudah ada. Ini menambahkan subfolder tersembunyi di dalam *directory* yang ada yang menampung struktur data internal yang diperlukan untuk kontrol versi.
+
+* `git clone` membuat salinan lokal dari proyek yang sudah ada secara *remotely* (jarak jauh). *Clone* ini mencakup semua *files*, riwayat, dan *branches* proyek.
+
+* `git add` menahapkan (*stages*) sebuah perubahan. *Git* melacak perubahan pada *codebase* seorang *developer*, tetapi perlu menahapkan dan mengambil *snapshot* dari perubahan tersebut untuk memasukkannya ke dalam riwayat proyek. Perintah ini melakukan penahapan (*staging*), bagian pertama dari proses dua langkah itu. Setiap perubahan yang ditahapkan akan menjadi bagian dari *snapshot* berikutnya dan bagian dari riwayat proyek. Penahapan dan *committing* secara terpisah memberikan *developer* kontrol penuh atas riwayat proyek mereka tanpa mengubah cara mereka membuat kode dan bekerja.
+
+* `git commit` menyimpan *snapshot* ke riwayat proyek dan menyelesaikan proses pelacakan perubahan. Singkatnya, *commit* berfungsi seperti mengambil foto. Apa pun yang telah ditahapkan dengan `git add` akan menjadi bagian dari *snapshot* dengan `git commit`.
+
+* `git status` menunjukkan status perubahan, apakah *untracked* (tidak terlacak), *modified* (dimodifikasi), atau *staged* (ditahapkan).
+
+* `git branch` menunjukkan *branches* yang sedang dikerjakan secara lokal.
+
+* `git merge` menggabungkan lini pengembangan. Perintah ini biasanya digunakan untuk menggabungkan perubahan yang dibuat pada dua *branches* yang berbeda. Misalnya, seorang *developer* akan melakukan *merge* ketika mereka ingin menggabungkan perubahan dari *feature branch* ke dalam *main branch* untuk *deployment*.
+
+* `git pull` memperbarui lini pengembangan lokal dengan *updates* dari rekannya yang *remote*. *Developer* menggunakan perintah ini jika rekan satu tim telah membuat *commits* ke *branch* di *remote*, dan mereka ingin mencerminkan perubahan tersebut di lingkungan lokal mereka.
+
+* `git push` memperbarui *remote repository* dengan setiap *commits* yang dibuat secara lokal ke sebuah *branch*.
+
+Untuk informasi lebih lanjut, lihat [full reference guide to Git commands](https://git-scm.com/docs).
+
+
